@@ -1,0 +1,162 @@
+.dbutton{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333 !important;
+    border: 2px solid #333 !important;
+    background-color: #f1f1f1 !important;
+}
+body{
+    background-color: #f1f1f1;
+}
+.darkmm{
+    background-color:#000021 !important;
+    color: white !important;
+}
+.textsh{
+    text-shadow: 0px 0px 2px white !important;
+}
+.container-img{
+    margin-top: 70px;
+    width: 100%;
+}
+.imgsec{
+    margin: auto;
+    height: 430px;
+    width: 310px;
+    background: url(../IMAGES/King_David\,_the_King_of_Israel.jpg);
+    background-size: cover;
+
+}
+ul,li{
+    font-size: 20px;
+    font-weight: 600;
+}
+h2{
+    text-shadow: 0px 0px 2px black;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0px 20px;
+    text-decoration:underline;
+}
+p{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 20px;
+    transition: text-shadow 0.5s ease-in-out;
+}
+.content{
+    margin-top: 40px;
+    text-align: right;
+}
+.hebook{
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.cardto{
+    background-color: rgba(6, 1, 46, 0.5)  !important;
+}
+img{
+    opacity: 0.7;
+}
+.booksec{
+    padding: 0px 0px 0px 20px;
+    margin-top: 20px;
+}
+.bookcont{
+    vertical-align: top;
+    display: inline-block;
+    margin: 0px 30px 20px 0px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid #333;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 4px #333;
+}
+.bocov{
+    background: url(../IMAGES/w10-200x200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-bottom: 2px solid #333;
+    box-shadow: 0px 0px 4px #333;
+}
+.bonight{
+    opacity: 0.5;
+}
+.infosec{
+    position: relative;
+    height:145px;
+    width: 100%;
+}
+.download-btn{
+    position: absolute;
+    top: 30px;
+    margin: 30px 0px 0px 80px;
+    padding: 10px 50px;
+    background-color:teal;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.download-night{
+    background-color: crimson;
+}
+.download-btn:hover{
+    color: #f1f1f1;
+}
+@media (min-width:0px) and (max-width:467px){
+    #darkmode{
+        font-size: 15px !important;
+    }
+    #darkmode{
+        font-size: 15px;
+
+    }
+    ul,li{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .hebook{
+        padding-right: 10px;
+    }
+    .booksec{
+        padding: 0px 60px;
+    }
+    .bookcont{
+        width: 250px;
+        height: 350px;
+    }
+    .bocov{
+        height: 250px;
+    }
+    .infosec{
+        height: 97px;
+    }
+    .infosec > p{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 5px;
+    }
+    .download-btn{
+        position: unset;
+        font-size: 15px;
+        margin-left: 55px;
+    }
+}
+@media (min-width:468px) and (max-width:700px){
+    .booksec{
+        padding: 0px 100px;
+    }
+    .bookcont{
+        width: 300px;
+        height: 450px;
+    }
+    .infosec > p{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 5px;
+    }
+}
